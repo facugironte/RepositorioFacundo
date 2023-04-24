@@ -28,3 +28,18 @@ footer {
     width: 30%;
     padding: 10px;
 }
+
+.lista{
+    list-style: none;
+    background-color: #7676;
+}
+
+.lista li {
+    background-color: red;
+    padding: 10px;
+}
+
+.menuH .lista li {
+    display: inline-block;
+    
+}
