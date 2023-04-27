@@ -1,0 +1,32 @@
+@media(max-width: 800px){ /* es decir, aplica cuando es MENOR a 800 */
+    body{
+        background-color: yellow;
+    }
+}
+
+@media(min-width: 800px){ /* es decir, aplica cuando es MAYOR a 800 */
+    body{
+        background-color: red;
+    }
+}
+
+@media(min-width: 1000px){
+    body{
+        background-color: blanchedalmond;
+    }
+}
+
+
+@media(min-width: 1200px){
+    body{
+        background-color: blue;
+    }
+}
+
+header h1{
+    background-color:black;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
