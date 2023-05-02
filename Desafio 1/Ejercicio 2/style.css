@@ -1,0 +1,67 @@
+body{
+    margin:0px 0px 0px 0px;
+    width: 2000px;
+}
+
+.nov{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50pt;
+    font-weight: 900;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 40px 0px 100px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+.black{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 148pt;
+    font-weight: 900;
+    color:black;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+.friday{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 163pt;
+    font-weight: 900;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 300px 0px 300px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36pt;
+    font-weight: 600;
+    color:black;
+    text-align: center;
+
+    margin:0px 0px 0px 0px;
+}
+
+.desc strong{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45pt;
+    font-weight: 900;
+    color:black;
+    text-align: center;
+
+    margin:0px 0px 0px 0px;
+}
+
+.pie{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44pt;
+    font-weight: 600;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    margin:0px 0px 0px 0px;
+}
