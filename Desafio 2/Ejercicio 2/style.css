@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
 }
 
 p{
@@ -16,6 +15,10 @@ p strong{
 
 div{
     margin-top: 30px;
+    text-align: center;
+    
+}
+div.imgs{
 
 }
 
