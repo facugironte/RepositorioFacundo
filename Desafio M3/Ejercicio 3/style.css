@@ -1,0 +1,56 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 14pt;
+    color:#414166;
+    border-radius: 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#c5c5c5;
+    border-bottom-color:black;
+}
+
+button{
+    width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15pt;
+    color:white;
+    background-color:#0a2ff1;
+    border-width: 2px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 18pt;
+    color:#04146c;
+}
+
+hr
+
+link p{
+    font-size: 14pt;
+    color: #0a2ff1;
+}
