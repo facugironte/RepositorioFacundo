@@ -1,0 +1,49 @@
+/*:root{
+    --bs-body-bg:black; de esta manera sobreescribo la variable de color de fondo de bootstrap
+    
+}
+
+.accordion{
+    --bs-accordion-active-bg: red;
+}
+
+*/
+
+div {
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 68pt;
+    color: #0a2ff1;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 15pt;
+    color: white;
+    margin:0;   
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 11pt; 
+    color: white;
+    margin: 0;
+}
+
+div .card.text-center.col-lg-3.col-md-6{
+    border-color: white;
+}
+
+div .card-img-overlay{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
