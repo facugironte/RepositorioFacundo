@@ -31,3 +31,9 @@ p span{
     color: #0a2ff1;
 }
 
+div .col-md-8.col-sm-12{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
