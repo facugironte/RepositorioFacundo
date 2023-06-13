@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "sass-watch": "sass --watch src/scss/:src/css/",
     "start": "next start",
     "lint": "next lint"
   },
