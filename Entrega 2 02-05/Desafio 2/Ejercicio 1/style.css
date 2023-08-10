@@ -1,0 +1,28 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 750px;
+}
+
+img{
+    background-image: url("D:/Documentos D/FACUNDO/JAVA DEVELOPER BOOTCAMP/RepositorioFacundo/Recursos/Ejercicio 1/fondo.JPG");
+    width: 400px;
+}
+
+h1{
+    color: #0a2ff1;
+    font-size: 59pt;
+    font-weight: 700;
+    margin: 0 0 0 0;
+}
+
+h1.dos strong{
+    background-color: #3ffff3;
+}
+
+p{
+    color: #0a2ff1;
+    font-size: 23pt;
+    font-weight: 500;
+    margin: 0 0 0 0;
+}
+

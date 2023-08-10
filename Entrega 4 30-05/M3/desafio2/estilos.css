@@ -1,0 +1,40 @@
+/*:root{
+    --bs-body-bg:black; de esta manera sobreescribo la variable de color de fondo de bootstrap
+    
+}
+
+.accordion{
+    --bs-accordion-active-bg: red;
+}
+
+*/
+
+h1{
+    font-family: 'Source Sans', sans-serif;
+    font-weight: 900;
+    font-size: 62pt;
+    color:#04146c;
+}
+
+p{
+    font-family: 'Source Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: #04146c;
+}
+
+p span{
+    font-family: 'Source Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: #04146c;
+    font-style: italic;
+}
+
+button{
+    font-family: 'Source Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14pt;
+    color: white;
+    background-color: #04146c;
+}

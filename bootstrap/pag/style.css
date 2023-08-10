@@ -1,0 +1,8 @@
+/*:root{
+    --bs-body-bg:black; de esta manera sobreescribo la variable de color de fondo de bootstrap
+    
+}*/
+
+.accordion{
+    --bs-accordion-active-bg: red;
+}

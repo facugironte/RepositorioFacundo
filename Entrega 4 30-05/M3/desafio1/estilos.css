@@ -1,0 +1,50 @@
+/*:root{
+    --bs-body-bg:black; de esta manera sobreescribo la variable de color de fondo de bootstrap
+    
+}
+
+.accordion{
+    --bs-accordion-active-bg: red;
+}
+
+*/
+
+
+label.form-label{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    color: #04146c;
+}
+
+label.form-check-label{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #04146c;
+    padding-left: 10px;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    color: #04146c;
+    font-style: italic;
+}
+
+.form-check{
+    display: flex;
+    align-items: center;
+
+}
+
+.btn.btn-primary{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18pt;
+    background-color: #5974ff;
+    width: 20%;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,39 @@
+/*:root{
+    --bs-body-bg:black; de esta manera sobreescribo la variable de color de fondo de bootstrap
+    
+}
+
+.accordion{
+    --bs-accordion-active-bg: red;
+}
+
+*/
+
+
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 37pt;
+    color: #04146c;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18pt;
+    color: #04146c;
+}
+
+p span{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #0a2ff1;
+}
+
+div .col-md-8.col-sm-12{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+

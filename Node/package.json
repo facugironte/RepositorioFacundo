@@ -1,0 +1,24 @@
+{
+  "name": "repositoriofacundo",
+  "version": "1.0.0",
+  "description": "Personal\r  Este es el README de mi repositorio del bootcamp de EducationIT.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html --public-url /",
+    "sass-watch": "sass --watch src/scss/:src/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "bootstrap": "^5.2.3",
+    "sass": "^1.62.1",
+    "sass-watch": "^0.1.0"
+  }
+}

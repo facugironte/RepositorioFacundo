@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    background-color: red;
+}
+
+.tabla {
+    background-color: white;
+    /*display:flex;
+    flex-direction:column;
+    margin:100px;
+    padding: 20px;*/
+}
+
+.tabla th{
+    background-color: rgb(63, 92, 117);
+    color:white;
+    padding: 3px;
+}
+
+.tabla td:nth-child(even){
+    background-color: rgb(109, 139, 165);
+    padding: 3px;
+}
+

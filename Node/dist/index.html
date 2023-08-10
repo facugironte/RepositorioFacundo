@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/index.77a9bc14.css">
+  </head>
+  <body>
+    <header class="container sticky-top">
+      <div class="row bg-contrast-pr">
+        <div class="col-4 col-lg-3 col-xxl-2">
+          <a href="#">
+            <img src="/logo.8bb9af93.svg" alt="Logo" class="img-logo">
+          </a>
+        </div>
+        <div class="col-8 col-lg-9 col-xxl-10">
+          <p class="text-secondary">Una aplicacion de ejemplo para trabajar con bootstrap.</p>
+          <p id="usuario" class="text-primary">Usuario</p>
+        </div>
+      </div>
+      <div class="row bg-primary bg-gradient">
+        <nav class="col navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="#">
+              <img src="/img.0f75d8a9.png" alt="Logo" class="img-logo-ico">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Lenguajes
+                  </a>
+                  <ul class="dropdown-menu bg-primary">
+                    <li><a class="dropdown-item" href="#">Java</a></li>
+                    <li><a class="dropdown-item" href="#">Python</a></li>
+                    <li><a class="dropdown-item" href="#">JS</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Frameworks
+                  </a>
+                  <ul class="dropdown-menu bg-primary">
+                    <li><a class="dropdown-item" href="#">React</a></li>
+                    <li><a class="dropdown-item" href="#">Springboot</a></li>
+                    <li><a class="dropdown-item" href="#">Nextjs</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+
+
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container mt-5 p-2 d-flex">
+        <div class="card m-1">
+          <div class="card-header text-center h-100">
+            <img src="/java.f677e843.jpg" class="card-img-top img-card" data-bs-toggle="modal" data-bs-target="#cardModal" alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title" data-bs-toggle="tooltip" data-bs-title="Abrir Java">Card title 1</h3>
+            <p class="card-text">Some quick example text to <span class="fw-bold text-uppercase"> build</span> on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card m-1">
+          <div class="card-header text-center h-100">
+            <img src="/py.4bb53297.png" class="card-img-top img-card" data-bs-toggle="modal" data-bs-target="#cardModal" alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Card title 1</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card m-1">
+          <div class="card-header text-center h-100">
+            <img src="/react.8460bc8e.png" class="card-img-top img-card" data-bs-toggle="modal" data-bs-target="#cardModal" alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Card title 1</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card  m-1">
+          <div class="card-header text-center h-100">
+            <img src="/js.e7f07ea0.png" class="card-img-top img-card" data-bs-toggle="modal" data-bs-target="#cardModal" alt="...">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Card title 1</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal fade" id="cardModal" tabindex="-1" aria-labelledby="cardModalLabel" aria-hidden="false">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="cardModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-4">Etiqueta: </div>
+              <div class="col-8"> 1</div>
+            </div>
+            <div class="row">
+              <div class="col-4">Auto: </div>
+              <div class="col-8">6</div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+      
+    <footer class="container bg-primary bg-opacity-50">
+      <div class="row">
+        <h4 class="col bg-primary p-2 text-center">Contactanos</h4>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <ul>
+            <li>
+              <a class="link-secondary link-opacity-50-hover" href="https://www.instagram.com/educacionit">Instagram</a>
+            </li>
+            <li>
+              <a class="link-secondary link-opacity-50-hover" href="https://www.linkedin.com/school/educacionit/mycompany/verification/">LinedIn</a>
+            </li>
+            <li>
+              <a class="link-secondary link-opacity-50-hover" href="https://twitter.com/educacionit">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <ul>
+            <li>
+              <a class="link-secondary link-opacity-50-hover" href="https://www.instagram.com/educacionit">Instagram</a>
+            </li>
+            <li>
+              <a class="link-secondary link-opacity-50-hover" href="https://www.linkedin.com/school/educacionit/mycompany/verification/">LinedIn</a>
+            </li>
+            <li>
+              <a class="link-secondary link-opacity-50-hover" href="https://twitter.com/educacionit">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <form class="g-3 needs-validation" novalidate="">
+            <div class="form-floating mb-2">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" placeholder="Nombre" class="form-control" id="nombre" aria-describedby="nombre">
+            </div>
+            <div class="form-floating mb-2">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" placeholder="miemail@mail.com" class="form-control" id="email" aria-describedby="email">
+            </div>
+            <div class="form-floating mb-2">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" aria-describedby="mensajeHelp"></textarea>
+            </div>
+            <div class="form-floating mb-2">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/index.18dbc454.js" defer=""></script>
+
+  </body>
+</html>
